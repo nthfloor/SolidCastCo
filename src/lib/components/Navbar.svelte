@@ -37,7 +37,8 @@
 				type="button"
 				class="md:hidden p-2 text-gray-600"
 				onclick={toggleMenu}
-				aria-label="Toggle menu"
+				aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+				aria-expanded={mobileMenuOpen}
 			>
 				{#if mobileMenuOpen}
 					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

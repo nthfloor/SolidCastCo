@@ -15,9 +15,10 @@ export interface ContactFormData {
 	message: string;
 }
 
-// Replace with your actual WhatsApp number (including country code, no + or spaces)
-export const WHATSAPP_NUMBER = '27XXXXXXXXX';
-export const PHONE_NUMBER = '+27 XX XXX XXXX';
+import { PUBLIC_WHATSAPP_NUMBER, PUBLIC_PHONE_NUMBER } from '$env/static/public';
+
+export const WHATSAPP_NUMBER = PUBLIC_WHATSAPP_NUMBER;
+export const PHONE_NUMBER = PUBLIC_PHONE_NUMBER;
 
 export function generateWhatsAppLink(phone: string, message: string): string {
 	const encoded = encodeURIComponent(message);
