@@ -1,0 +1,21 @@
+{
+  "name": "SolidCast Co. - Premium Epoxy Flooring & Tabletops",
+  "short_name": "SolidCast Co.",
+  "description": "Premium epoxy flooring and custom tabletops in South Africa. Transform your spaces with durable, stunning epoxy finishes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
